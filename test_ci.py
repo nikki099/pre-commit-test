@@ -1,8 +1,10 @@
 # test_ci.py
 
+
 def greet(name: int) -> str:
-    print("Hello, " + name + "!")
-    return 42
+    print("Hello, " + str(name) + "!")
+    return "42"
 
 
-greet("world")
+if __name__ == "__main__":
+    greet(2)
